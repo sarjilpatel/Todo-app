@@ -1,0 +1,88 @@
+.todo__item {
+  background-color: rgb(26, 32, 39);
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-top: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.list__item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: 80%;
+  width: 50%;
+  word-wrap: break-word;
+}
+
+.list__item h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.list__item p {
+  margin: 0;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.modal {
+  color: white;
+}
+
+.modalDiv {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo__icon {
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.todo__icon:hover {
+  transform: scale(1.1);
+}
+
+.edit__icon {
+  color: rgb(11, 88, 242);
+}
+
+.delete__icon {
+  color: rgb(234, 37, 37);
+}
+
+@media (max-width: 1142px) {
+  .todo__item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .todo__item {
+    width: 80%;
+  }
+
+  .login__form {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .todo__item {
+    width: 80%;
+    flex-direction: column;
+  }
+}

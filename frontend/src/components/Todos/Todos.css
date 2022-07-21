@@ -1,0 +1,26 @@
+.todos {
+  width: 60%;
+  background-color: rgb(18, 23, 29);
+  border-radius: 10px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 0;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todos__dark {
+}
+
+.todos__light {
+  background-color: rgb(129, 166, 210);
+}
+
+@media (max-width: 480px) {
+  .todos {
+    width: 80%;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 32, 39);
+
+  color: rgb(222, 221, 221);
+  font-family: roboto;
+}
+
+input {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(26, 32, 39);
+  color: rgb(177, 175, 175);
+}
+::-webkit-scrollbar {
+  display: none;
+}

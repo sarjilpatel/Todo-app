@@ -1,0 +1,71 @@
+.modal {
+  color: white;
+}
+
+.modalDiv {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: papayawhip;
+}
+
+.modal__form {
+  width: 400px;
+  height: 30vh;
+  top: 50%;
+  left: 50%;
+  padding: 0 4rem 1rem 3rem;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+  background-color: #121212;
+  border: 2px solid #000;
+  box-shadow: rgb(0 0 0 / 20%) 0px 11px 15px -7px,
+    rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal__form h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+.modal__form p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.modal__form button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.login__form button:hover {
+  background-color: #d1d2d3;
+}
+
+.modal {
+  color: white;
+}
+
+.modalDiv {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.pendingIcon {
+  font-size: 1.8rem;
+  margin: 0 1rem 0 1rem;
+}
